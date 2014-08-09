@@ -1,0 +1,6 @@
+.ruby-version
+qualifier/.vagrant/
+qualifier/.bundle/
+qualifier/Gemfile.lock
+qualifier/vendor/
+qualifier/webapp/config/isucon.dump.sql
