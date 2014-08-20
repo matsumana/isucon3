@@ -23,7 +23,11 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
                      "recipe[oh-my-zsh]",
                      "recipe[mysql]",
                      "recipe[ruby]",
+                     "recipe[node]",
+                     "recipe[app-data]",
                      "recipe[app-ruby]",
+                     "recipe[app-node]",
+                     "recipe[supervisord]",
                     ]
   end
 

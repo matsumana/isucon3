@@ -4,3 +4,4 @@ qualifier/.bundle/
 qualifier/Gemfile.lock
 qualifier/vendor/
 qualifier/webapp/config/isucon.dump.sql
+qualifier/webapp/nodejs/node_modules

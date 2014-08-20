@@ -12,3 +12,11 @@ if [ -d $HOME/.rbenv ]; then
     export PATH="$HOME/.rbenv/bin:$PATH"
     eval "$(rbenv init -)"
 fi
+
+# node
+if [ -f $HOME/local/node/bin/node ]; then
+    NODE_HOME=$HOME/local/node
+    export NODE_HOME
+    PATH=$NODE_HOME/bin:$PATH
+    export PATH
+fi
