@@ -1,3 +1,20 @@
+*.gif  binary
+*.png  binary
+*.jpeg binary
+*.jpg  binary
+*.tiff binary
+*.tif  binary
+*.ico  binary
+*.ppm  binary
+
+*.ttf  binary
+
+*.tgz  binary
+*.gz   binary
+*.zip  binary
+
+final/chef/cookbooks/common-packages/files/default/bin-jq binary
+
 *.bat eol=crlf
 *.cmd eol=crlf
 *     eol=lf
