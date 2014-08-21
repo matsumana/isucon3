@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 script 'install_app_node' do
-  creates "/vagrant/webapp/nodejs/node_modules/mysql"
+  creates "/home/vagrant/isucon3/qualifier/webapp/nodejs/node_modules/mysql"
   interpreter 'bash'
   flags '-e'
   environment 'HOME' => '/home/vagrant'
@@ -9,7 +9,7 @@ script 'install_app_node' do
   group 'vagrant'
   code <<-EOF
     source /home/vagrant/.bashrc
-    cd /vagrant/webapp/nodejs
+    cd /home/vagrant/isucon3/qualifier/webapp/nodejs
     npm install
   EOF
 end

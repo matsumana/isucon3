@@ -25,6 +25,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
                      "recipe[ruby]",
                      "recipe[node]",
                      "recipe[app-data]",
+                     "recipe[app-src]",
                      "recipe[app-ruby]",
                      "recipe[app-node]",
                      "recipe[supervisord]",
